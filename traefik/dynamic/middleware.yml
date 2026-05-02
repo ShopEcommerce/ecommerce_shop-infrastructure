@@ -4,9 +4,3 @@ http:
       stripPrefixRegex:
         regex:
           - "^/api/[a-zA-Z0-9-]+"
-          
-    add-correlation-id:
-      headers:
-        customRequestHeaders:
-          X-Correlation-ID: ""
-
