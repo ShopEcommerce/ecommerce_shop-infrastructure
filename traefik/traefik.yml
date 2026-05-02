@@ -16,7 +16,7 @@ providers:
     exposedByDefault: false
     network: teleshop-network
   file:
-    filename: /traefik.yml
+    directory: /etc/traefik/dynamic
     watch: true
 
 # Global configuration
